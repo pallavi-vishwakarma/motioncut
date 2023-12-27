@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.tagline {
+    height: 150px;
+    background-image: linear-gradient(-225deg, #2B86C5 0%, #562B7C 52%, #2B86C5 100%);
+    font-size: 25px;
+    text-align: center;
+    padding: 40px;
+    color: rgb(238, 236, 241);
+    margin: 20px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    height: 440px;
+    margin: 25px;
+    column-gap: 30px;
+    text-align: center;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+
+
+.box li {
+    list-style: none;
+    padding: 10px;
+}
+
+.box i {
+    font-size: 30px;
+}
+
+.box h3 {
+    font-size: 20px;
+}
+
+.box p {
+    font-size: 15px;
+}
+
+.box button {
+    width: 50%;
+    height: 35px;
+    border-radius: 20px;
+    background-image: linear-gradient(-45deg, #FFC796 0%, #FF6B95 100%);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    outline: none;
+    border: 2px solid black;
+    color: white;
+}
+
+.box button:hover {
+    transition: all 0.75s;
+    color: white;
+    background-image: linear-gradient(-225deg, #A445B2 0%, #D41872 52%, #FF0066 100%);
+    
+}
+
+@media onlyscreen and (max-width:600px) {
+    .box {
+        width: 100%;
+    }
+
+}
+
+
+.box-1 {
+
+    background-image: linear-gradient(to right, #3ab5b0 0%, #3d99be 31%, #56317a 100%);
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-top-style: dashed;
+    margin-top: -122px;
+    margin-bottom: 133px;
+    padding: 10px;
+}
+
+.box-2 {
+
+
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+
+    margin-top: -122px;
+    margin-bottom: 133px;
+    padding: 10px;
+    background-image: linear-gradient(45deg, #874da2 0%, #c43a30 100%);
+}
+
+.box-3 {
+
+    background-image: linear-gradient(to right, #3ab5b0 0%, #3d99be 31%, #56317a 100%);
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-top-style: dashed;
+    margin-top: -122px;
+    margin-bottom: 133px;
+    padding: 10px;
+}
